@@ -1,0 +1,162 @@
+/* body {
+    background-color: rgb(235, 227, 222);
+}
+
+
+ul {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    color: black;
+    font-size: large;
+    }
+
+    footer section {
+        margin-top: 100px;
+        height: 70px;
+        /* width: 20%; */
+        /* text-align: center; */
+        /* margin-right: 30%;
+        margin-left: 30%;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer .icons a{
+        color: black;
+        width: 100%;
+        
+    } */ 
+
+    body {
+        background-color: rgb(235, 227, 222);
+    }
+    
+    
+    
+    ul {
+        
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav ul li {
+        list-style: none;
+        color: black;
+        font-size: large;
+        }
+    
+    h1 {
+        font-family: 'Kalam', cursive;
+        font-size: 70px;
+        text-align: center;
+        margin: 10px;
+       }
+    
+      h2 {
+        font-family: 'Kalam', cursive;
+        text-align: center;
+      }
+    
+      .introduction {
+          width: 70%;
+          text-align: center;
+          margin-left: 15%;
+          margin-top: 40px;
+      }
+    
+      .blogs {
+          display: flex;
+          justify-content: space-around;
+          margin-top: 100px;
+          
+        }
+    
+        .blogone .blogtwo {
+            box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
+        }
+    
+      span {
+          display: block;
+          text-align: center;
+        }
+    
+      a {
+        text-decoration: none;
+        }
+    
+    
+    .blogone a img, .blogtwo a img, .blogthree a img{
+    height: 200px;
+    width: 300px;
+    }
+    
+    .blogone, .blogtwo, .blogthree {
+        width: 300px;
+    }
+    
+    
+    
+     #hr-top {
+        border: dotted rgb(57, 62, 46) 6px;
+        border-bottom: none;
+        width: 4%;
+        /* margin: 80px auto; */
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    
+     #hr-bottom {
+        border: dotted black 6px;
+        border-bottom: none;
+        width: 4%;
+        /* margin: 80px auto; */
+        margin-top: 100px;
+    }
+    
+    
+    
+     /* hr.style-seven {
+        overflow: visible; /* For IE */
+        /* height: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px 0 0 0;
+        border-radius: 20px;
+    } */
+    /* hr.style-seven:before { Not really supposed to work, but does */
+        /* display: block;
+        content: "";
+        height: 30px;
+        margin-top: -31px;
+        border-style: solid;
+        border-color: black;
+        border-width: 0 0 1px 0;
+        border-radius: 20px;
+    }  */ 
+    
+    
+    footer section {
+        margin-top: 100px;
+        height: 70px;
+        /* width: 20%; */
+        text-align: center;
+        margin-right: 30%;
+        margin-left: 30%;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer .icons a{
+        color: black;
+        width: 100%;
+        
+    }
+     
+    
