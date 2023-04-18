@@ -77,7 +77,7 @@ nav ul li {
 }
 
 h1 {
-    font-family: 'Kalam', cursive;
+    font-family: 'Italiana', serif;
     font-size: 70px;
     text-align: center;
     margin: 10px;
@@ -86,17 +86,28 @@ h1 {
 }
 
 h2 {
-    font-family: 'Kalam', cursive;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    margin-top: 70px;
 }
 
 .introduction {
+    display: none;
     width: 70%;
     text-align: center;
     margin-left: 15%;
-    margin-top: 40px;
+    margin-top: 60px;
     color: white;
+}
+
+h3 {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 3rem;
+
 }
 
 .blog-link {
@@ -107,6 +118,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+
 }
 
 .blogone .blogtwo {
@@ -140,7 +152,7 @@ a {
 
 
 #hr-top {
-    border: dotted green 6px;
+    border: dotted rgb(234, 182, 180) 6px;
     border-bottom: none;
     width: 4%;
     /* margin: 80px auto; */
