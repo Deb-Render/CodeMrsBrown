@@ -104,6 +104,7 @@ h2 {
 h3 {
     display: block;
     color: white;
+    font-family: 'Italiana', serif;
     text-align: center;
     margin-top: 150px;
     font-size: 3rem;
@@ -121,9 +122,9 @@ h3 {
 
 }
 
-.blogone .blogtwo {
+/* .blogone .blogtwo {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
-}
+} */
 
 span {
     display: block;
@@ -203,7 +204,7 @@ footer section {
 }
 
 footer .icons a {
-    color: black;
+    color: white;
     width: 100%;
 
 }

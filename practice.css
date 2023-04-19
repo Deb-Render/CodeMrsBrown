@@ -1,0 +1,17 @@
+.blogone {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.blog-img {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.blog-pic {
+    float: right;
+    height: 200px;
+    width: 200px;
+}
