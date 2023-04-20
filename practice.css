@@ -1,17 +1,35 @@
-.blogone {
+ .blogone {
+
+     width: 50%;
+     margin: 200px auto;
+     /* text-align: left; */
+
+ }
+
+ .blog-img-left {
+
+     width: 25%;
+     float: left;
+     margin-right: 40px;
+ }
+
+ .blog-img-right {
+     width: 25%;
+     float: right;
+     margin-left: 40px;
+
+ }
+
+ .htwo-right,
+ .p-right {
+     margin: 0 auto;
+ }
+
+
+
+
+
+ /* .blogone {
     width: 50%;
-    margin: 100px auto;
-    text-align: left;
-}
 
-.blog-img {
-    float: left;
-    height: 200px;
-    width: 200px;
-}
-
-.blog-pic {
-    float: right;
-    height: 200px;
-    width: 200px;
-}
+} */
