@@ -106,7 +106,7 @@ h3 {
     color: white;
     font-family: 'Italiana', serif;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
     font-size: 3rem;
 
 }
@@ -118,7 +118,8 @@ h3 {
 .blogs {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 200px;
+
 
 }
 
@@ -182,7 +183,14 @@ a {
     margin-top: 100px;
 }
 
+.about-section {
+    margin-top: 150px;
+}
 
+.anout-section .about-title {
+
+    margin-top: 150px;
+}
 
 
 
