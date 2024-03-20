@@ -1,62 +1,87 @@
 body {
-    background-color: black;
+    /* background-color: black; */
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
 }
 
 
-.navbar {
-    display: flex;
-    /*changed from flex to none chenge back to flex to display nav bar*/
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: black;
-    color: #fff;
-}
+/************************************************** 
+NAV BAR 
+*************************************************/
 
-/* Logo styles */
-.nav-logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Navigation links styles */
-.nav-links {
-    display: flex;
-}
-
-.nav-links a {
-    color: #fff;
+a{
     text-decoration: none;
-    margin-right: 20px;
-}
-
-/* Hamburger menu styles */
-.nav-toggle {
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  
+  .logo{
+    margin-left: 5%;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .logo_header{
+    display: flex;
+    margin-left: 2%;
+  }
+  
+  .main_nav{
+    display: flex;
+    width: 50%;
+    float: right;
+    margin-right: 2%;
+    justify-content: space-around;
+    list-style: none;
+  }
+  /* .main_nav li:hover{
+    background-color: gray
+  } */
+  
+  .main_nav li{
+    display: inline;
+    color: #ffffff;
+    line-height: 5px;
+  }
+  .main_nav li a{
+    color: black;
+    font-size: 0.7em;
+   
+  }
+  
+  .navbar_toggle {
     display: none;
-    cursor: pointer;
-}
-
-.nav-toggle span {
-    display: block;
-    height: 3px;
-    width: 25px;
-    background-color: #fff;
-    margin-bottom: 5px;
-}
-
-/* Media query for responsive design */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-
-    .nav-toggle {
-        display: block;
-    }
-}
+  }
+  
+  #cart {
+    color: black;
+  }
+  
+  #search {
+    color: black;
+  }
+  
+  
+  
+  
+  /************************************************** 
+  NAV BAR END
+  *************************************************/
 
 
-/* ul {
+
+/* 
+
+ ul {
 
     display: flex;
     justify-content: space-around;
@@ -66,7 +91,7 @@ nav ul li {
     list-style: none;
     color: white;
     font-size: large;
-} */
+}  */
 
 .woman-coding {
     display: block;
@@ -74,6 +99,7 @@ nav ul li {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -81,89 +107,173 @@ h1 {
     font-size: 70px;
     text-align: center;
     margin: 10px;
-    color: white;
+    color: black;
     margin-top: 100px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: white;
-    margin-top: 70px;
+    color: black;
+    margin-top: 50px;
+    font-size: 1.2rem;
 }
 
-.introduction {
+/* .introduction {
     display: none;
     width: 70%;
     text-align: center;
     margin-left: 15%;
     margin-top: 60px;
     color: white;
-}
+} */
 
 h3 {
     display: block;
-    color: white;
+    color: black;
     font-family: 'Italiana', serif;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 90px;
     font-size: 3rem;
 
 }
 
-.blog-link {
-    color: green;
+h4 {
+    display: block;
+    color: black;
+    font-family: 'Italiana', serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    font-size: 1.3rem; 
 }
 
-.blogs {
+/***************************************************
+ SECTION TWO 
+ ***************************************************/
+
+.section-two {
+    /* display: block; */
+    height: 750px;
+    background-color: rgba(220, 204, 184, 0.5);
+    overflow: auto;
+}
+
+.ramblings {
+    display: block;
+    color: black;
+    /* text-decoration: underline rgba(137, 138, 123, 0.7); */
+}
+
+.ramblings-blocks {
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
-
-
-}
-
-/* .blogone .blogtwo {
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
-} */
-
-span {
-    display: block;
-    text-align: center;
-    color: white;
-}
-
-a {
-    text-decoration: none;
+    width: 50%;
+    margin: 0 auto;
+    /* text-align: center; Remove this line when adding more blocks then use flexbox */
 }
 
 
-.blogone a img,
-.blogtwo a img,
-.blogthree a img {
-    height: 200px;
-    width: 300px;
-}
 
-.blogone,
-.blogtwo,
-.blogthree {
-    width: 300px;
-}
 
-.my-img {
-    height: 500px;
-    width: 500px;
+
+/*************************************************************** 
+START OF NEW BLOG POST HOME PAGE
+ **************************************************************/
+
+.wrapper {
+    margin-top: 10%;
+
+  }
+
+   .wrapper h1 {
+     margin-bottom: 60px;
+     text-align: center;
+   }
+
+   .posts {
+     display: flex;
+     text-align: center;
+     width: auto;
+     justify-content: center;
+     flex-wrap: wrap;
+     
+   }
+
+    .post {
+      margin: 5px;
+      margin-bottom: 80px;
+      width: 300px;
+      background-color: white;
+      padding: 20px;
+      line-height: 20px;
+      color: black;
+      position: relative;
+      /* border: solid grey;
+      border-style: solid; */
+    }
+      
+
+    .post h3 {
+      font-size: 20px;
+      margin-top: 50px;
+      color: teal;
+    }
+
+     .role {
+       font-size: 15px;
+       text-transform: uppercase;
+       margin: 12px 0;
+     }
+
+     .post_img {
+       height: 250Px;
+       width: 250px;
+       /* border-radius: 50%; */
+       align-items: center;
+       
+      
+     }
+
+     .post_img img {
+       width: 250px;
+       height: 250px;
+       padding: 23px;
+       
+       
+     }
+  
+
+.h2 {
+      display: flex;
+      font-family: monospace;
+      justify-content: center;
+     }
+
+      .intro {
+        margin-right: 20%;
+        margin-left: 20%;
+        
+      }
+
+ /**************************************************************** 
+             END OF NEW BLOG POST HOME PAGE
+ ****************************************************************/
+
+
+/* .my-img {
+    /* height: 500px; */
+    /* width: 600px;
     float: left;
 
-}
+}  */
 
-.description {
-    color: white;
+/* .description {
+    color: black;
     width: 40%;
     float: right;
     margin-right: 10%;
-}
+} */
 
 
 #hr-top {
@@ -183,14 +293,58 @@ a {
     margin-top: 100px;
 }
 
-.about-section {
-    margin-top: 150px;
+
+/********************************************* 
+ABOUT SECTION
+*********************************************/
+
+.section-three {
+    /* width: 85%; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: right;
+    background-color: rgba(137, 138, 123, 0.7);
 }
 
-.anout-section .about-title {
-
-    margin-top: 150px;
+.section-three-heading {
+    font-size: 3rem;
 }
+
+
+ .section-three-img {
+    width: 50%;
+    float: left;
+    
+ }  
+  
+ .section-three-text-box {
+    width: 50%;
+    float: right;
+    
+ }
+
+ .section-three {
+    /* background-color: rgb(84, 62, 33); */
+ }
+
+
+
+
+/* .about-section {
+    margin-top: 150px;
+   
+}
+
+
+
+.about-title {
+    padding-top: 50px;
+    margin-top: 200px;
+}
+
+.description {
+    height: 500px;
+} */
 
 
 
@@ -248,7 +402,7 @@ LAYOUT TWO END
 
 footer section {
     clear: both;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     height: 200px;
     /* width: 20%; */
     text-align: center;
@@ -259,8 +413,76 @@ footer section {
     justify-content: space-between;
 }
 
+.icons {
+    height: 100px;
+}
+
+i {
+    color: rgb(239, 162, 163);
+}
+
 footer .icons a {
-    color: white;
+    color: black;
     width: 100%;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+}
+
+
+
+/* NAV MEDIA Q */
+@media only screen and (max-width : 992px){
+
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100vw;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      background-color: transparent;
+      font-size: 20px;
+    }
+  
+    .main_nav{
+      display: none;
+    }
+  
+    .show_nav{
+      padding-top: 2%;
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  
+    .main_nav li{
+      width: 100%;
+      height: 50px;
+      font-size: 25px;
+      justify-content: center;
+      text-align: center;
+      padding: 0%;
+    }
+    .navbar_toggle {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 30px;
+      color: black;
+      background: transparent;
+      border-color: transparent;
+      transition: all 0.3s linear;
+      cursor: pointer;
+      display: block;
+    }
+  
+    
+  
+  
+    .logo_header{
+      width: 100%;
+      justify-content: space-between;
+      margin-right: 2%;
+    }
+
 }
