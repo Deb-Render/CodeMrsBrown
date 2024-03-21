@@ -37,7 +37,7 @@ a{
   
   .main_nav{
     display: flex;
-    width: 50%;
+    width: 20%;
     float: right;
     margin-right: 2%;
     justify-content: space-around;
