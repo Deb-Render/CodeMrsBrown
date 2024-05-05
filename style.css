@@ -1,9 +1,26 @@
 body {
-    /* background-color: black; */
+    
   margin: 0;
   padding: 0; 
   box-sizing: border-box;
+  background-color: rgb(218, 203, 95);
+ 
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgb(85, 32, 93);
 }
+
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900*/
+
+/* .figtree-uniquifier {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+} */
 
 
 /************************************************** 
@@ -11,124 +28,153 @@ NAV BAR
 *************************************************/
 
 a{
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 0;
+}
+
+.main-logo {
+  height: 60px;
+}
+
+.logo{
+  margin-left: 5%;
+  color: rgb(85, 32, 93);
+  font-size: 30px;
+  width: 300px;
+  font-weight: bold;
+  padding-top: 2%;
   }
-  
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: transparent;
-    font-size: 20px;
-  }
-  
-  .logo{
-    margin-left: 5%;
-    color: black;
-    font-size: 25px;
-    font-weight: bold;
-  }
+
   .logo_header{
-    display: flex;
-    margin-left: 2%;
-  }
+  display: flex;
+  margin-left: 2%;
+ width: 300px;
+}
+
+.main_nav{
+  display: flex;
+  width: 20%;
+  float: right;
+  margin-right: 2%;
+  justify-content: space-around;
+  list-style: none;
+}
+/* .main_nav li:hover{
+  background-color: gray
+} */
+
+.main_nav li{
+  display: inline;
+  color: #ffffff;
+  line-height: 5px;
+}
+.main_nav li a{
+  color: rgb(85, 32, 93);
+  font-size: 0.9em;
+ 
+}
+
+.navbar_toggle {
+  display: none;
+}
+
+#cart {
+  color: black;
+}
+
+#search {
+  color: black;
+}
   
-  .main_nav{
-    display: flex;
-    width: 20%;
-    float: right;
-    margin-right: 2%;
-    justify-content: space-around;
-    list-style: none;
-  }
-  /* .main_nav li:hover{
-    background-color: gray
-  } */
-  
-  .main_nav li{
-    display: inline;
-    color: #ffffff;
-    line-height: 5px;
-  }
-  .main_nav li a{
-    color: black;
-    font-size: 0.7em;
-   
-  }
-  
-  .navbar_toggle {
-    display: none;
-  }
-  
-  #cart {
-    color: black;
-  }
-  
-  #search {
-    color: black;
-  }
-  
-  
+.something {
+  height: 40px;
+  background-color: rgb(85, 32, 93);
+  color: white;
+  margin-top: 5px;
+}
   
   
   /************************************************** 
-  NAV BAR END
+                      NAV BAR END
   *************************************************/
 
+  .border {
+    width: 80%;
+    margin: 0 auto;
+  }
 
+  /*************************************************************
+                        SECTION ONE 
+   ***********************************************************/
 
-/* 
-
- ul {
-
-    display: flex;
-    justify-content: space-around;
+   .section-one {
+    /* width: 85%; */
+    /* margin-top: 100px; */
+    margin-bottom: 200px;
+    float: right;
+    
+    /* background-color: rgba(137, 138, 123, 0.7); */
 }
 
-nav ul li {
-    list-style: none;
-    color: white;
-    font-size: large;
-}  */
-
-.woman-coding {
-    display: block;
-    height: 200px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
+.section-one-heading {
+    font-size: 4rem;
+    margin-top: 200px;
 }
+
+
+
+
+ .section-one-img {
+    width: 50%;
+    /* height: 800px; */
+    float: right;
+    
+ }  
+  
+ .section-one-text-box {
+    width: 50%;
+    float: left;
+    
+ }
+
+ .section-one-para {
+   margin-right: 20%;
+  /* margin-left: 7%;  */
+  line-height: 30px;
+ }
+
+
 
 h1 {
-    font-family: 'Italiana', serif;
-    font-size: 70px;
-    text-align: center;
-    margin: 10px;
-    color: black;
-    margin-top: 100px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  
+  
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     text-align: center;
     color: black;
     margin-top: 50px;
     font-size: 1.2rem;
 }
 
-/* .introduction {
-    display: none;
-    width: 70%;
-    text-align: center;
-    margin-left: 15%;
-    margin-top: 60px;
-    color: white;
-} */
 
-h3 {
+
+/* h3 {
     display: block;
     color: black;
     font-family: 'Italiana', serif;
@@ -136,9 +182,9 @@ h3 {
     margin-top: 90px;
     font-size: 3rem;
 
-}
+} */
 
-h4 {
+/* h4 {
     display: block;
     color: black;
     font-family: 'Italiana', serif;
@@ -146,40 +192,67 @@ h4 {
     margin-top: 30px;
     margin-bottom: 90px;
     font-size: 1.3rem; 
-}
+} */
+
 
 /***************************************************
  SECTION TWO 
  ***************************************************/
 
-.section-two {
-    /* display: block; */
-    height: 750px;
-    background-color: rgba(220, 204, 184, 0.5);
-    overflow: auto;
+
+
+
+.the-standup {
+  
+ /* padding-top: 10px; */
+  margin: 0 auto;
+  /* color: black; */
+ }
+
+
+.section-two-heading {
+  font-size: 2.8rem;
+  display: block;
+    color: black;
+    margin-top: 90px;
+    color: rgb(85, 32, 93);
+}
+
+.section-two-intro {
+  color: rgb(85, 32, 93);
+ font-size: 1rem;
+}
+
+.lines {
+  display: flex;
+  justify-content: space-between;
 }
 
 .ramblings {
-    display: block;
-    color: black;
-    /* text-decoration: underline rgba(137, 138, 123, 0.7); */
+  display: block;
+  color: black;
+  text-decoration: none;
+  color: rgb(85, 32, 93);
+  font-size: 1.2rem;
 }
 
-.ramblings-blocks {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    margin: 0 auto;
-    /* text-align: center; Remove this line when adding more blocks then use flexbox */
+time {
+  color: rgb(85, 32, 93);
+  font-size: 1.2rem;
 }
 
-
+.section-two-hr {
+  border: 1px solid rgb(85, 32, 93);
+  
+}
 
 
 
 /*************************************************************** 
 START OF NEW BLOG POST HOME PAGE
  **************************************************************/
+
+
 
 .wrapper {
     margin-top: 10%;
@@ -194,63 +267,66 @@ START OF NEW BLOG POST HOME PAGE
    .posts {
      display: flex;
      text-align: center;
-     width: auto;
+     /* width: auto; */
      justify-content: center;
      flex-wrap: wrap;
-     
+     margin-top: 250px;
    }
 
     .post {
       margin: 5px;
       margin-bottom: 80px;
-      width: 300px;
-      background-color: white;
+      width: 340px;
       padding: 20px;
       line-height: 20px;
       color: black;
       position: relative;
-      /* border: solid grey;
-      border-style: solid; */
-    }
+     }
       
-
     .post h3 {
       font-size: 20px;
       margin-top: 50px;
-      color: teal;
+      color: rgb(85, 32, 93);
     }
 
      .role {
        font-size: 15px;
        text-transform: uppercase;
        margin: 12px 0;
+       color: rgb(85, 32, 93);
      }
 
      .post_img {
-       height: 250Px;
-       width: 250px;
-       /* border-radius: 50%; */
-       align-items: center;
-       
-      
-     }
+       height: 350Px;
+       width: 350px;
+       /* align-items: center; */
+       margin: 0 auto;
+       }
 
      .post_img img {
-       width: 250px;
-       height: 250px;
-       padding: 23px;
-       
-       
+       width: 350px;
+       height: 350px;
+       /* padding: 23px; */
+       margin: 0 auto;
+       }
+
+     .blog-description {
+      color: rgb(85, 32, 93);
+     }
+
+     .more-button {
+      display: block;
+      margin: 0 auto;
+      background-color: rgb(85, 32, 93);
+      color: white;
+      height: 50px;
+      width: 150px;
+      border: none;
+      border-radius: 7px;
      }
   
 
-.h2 {
-      display: flex;
-      font-family: monospace;
-      justify-content: center;
-     }
-
-      .intro {
+     .intro {
         margin-right: 20%;
         margin-left: 20%;
         
@@ -261,171 +337,148 @@ START OF NEW BLOG POST HOME PAGE
  ****************************************************************/
 
 
-/* .my-img {
-    /* height: 500px; */
-    /* width: 600px;
-    float: left;
 
-}  */
-
-/* .description {
-    color: black;
-    width: 40%;
-    float: right;
-    margin-right: 10%;
-} */
-
-
-#hr-top {
-    border: dotted rgb(234, 182, 180) 6px;
-    border-bottom: none;
-    width: 4%;
-    /* margin: 80px auto; */
-    margin-top: 80px;
-    margin-bottom: 50px;
-}
-
-#hr-bottom {
-    border: dotted black 6px;
-    border-bottom: none;
-    width: 4%;
-    /* margin: 80px auto; */
-    margin-top: 100px;
-}
-
-
-/********************************************* 
-ABOUT SECTION
-*********************************************/
+/*************************************************************** 
+                ABOUT SECTION
+***************************************************************/
 
 .section-three {
-    /* width: 85%; */
+    
     margin-top: 100px;
     margin-bottom: 100px;
     float: right;
-    background-color: rgba(137, 138, 123, 0.7);
+    /* background-color: rgba(137, 138, 123, 0.7); */
+}
+
+.section-three-container {
+  margin-top: 200px;
 }
 
 .section-three-heading {
     font-size: 3rem;
+    color: rgb(85, 32, 93);
+    /* margin-top: 200px; */
 }
 
-
- .section-three-img {
+.section-three-img {
     width: 50%;
     float: left;
-    
- }  
+    }  
   
  .section-three-text-box {
     width: 50%;
     float: right;
-    
+   }
+
+ .section-three-para {
+  margin-right: 7%;
+  margin-left: 7%;
+  line-height: 25px;
+  margin-left: 20%;
  }
 
- .section-three {
-    /* background-color: rgb(84, 62, 33); */
- }
 
+ /***********************************************
+                   STANDUP TEMPLATE
+  ***********************************************/
 
+.standup-border {
+  width: 60%;
+  margin: 50px auto 10px;
+}
 
+.standup-heading {
+ 
+  display: flex;
+  justify-content: space-between;
+}
 
-/* .about-section {
-    margin-top: 150px;
-   
+.standup-post-title {
+ 
+  margin: 0;
+margin-bottom: 0;
+font-size: 2rem;
+}
+
+.standup-post-date {
+  /* display: block; */
+  font-size: 1.5rem;
+}
+
+.standup-hr {
+  border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(85, 32, 93, 1), rgb(157, 51, 173) ,rgb(202, 43, 226));
+}
+
+.about-the-post {
+  margin: 90px 20px 40px;
+}
+
+.list-title {
+  margin-left: 20px;
+ 
+  font-size: 1.2rem;
+}
+
+.general-list {
+/* padding-top: 10px; */
+padding-bottom: 20px;
+}
+
+.text-one, .text-two, .text-three, .text-four, .text-five, .text-six, .text-seven, .text-eight, .text-nine, .text-ten {
+  margin: 30px 10px;
+
+}
+
+/************************************************* 
+                 BLOG POST TEMPLATE
+**************************************************/
+
+.blog-post-border {
+  width: 50%;
+  margin: 50px auto 10px;
+}
+
+.blog-post-heading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.blog-post-img {
+  display: block;
+  height: 500px;
+  width: 700px;
+  margin: 100px auto;
+}
+
+.blog-post-text-area {
+  margin: 5px auto;
 }
 
 
+/**************************************************
+              FOOTER SECTION 
+ **************************************************/
 
-.about-title {
-    padding-top: 50px;
-    margin-top: 200px;
-}
-
-.description {
-    height: 500px;
-} */
-
-
-
-/********************************************************************************
-LAYOUT TWO
-*********************************************************************************/
-
-/* .blogone {
-
-    width: 50%;
-    margin: 200px auto;
-    text-align: left;
-
-}
-
-.blog-img-left {
-
-    width: 25%;
-    float: left;
-    margin-right: 40px;
-}
-
-.blog-img-right {
-    width: 25%;
-    float: right;
-    margin-left: 40px;
-
-} */
-
-/********************************************************************************
-LAYOUT TWO END
-*********************************************************************************/
-
-
-
-/* hr.style-seven {
-    overflow: visible; /* For IE */
-/* height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-} */
-/* hr.style-seven:before { Not really supposed to work, but does */
-/* display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-}  */
-
-
-footer section {
+ footer {
     clear: both;
-    /* margin-top: 100px; */
-    height: 200px;
-    /* width: 20%; */
+    height: 150px;
+    width: 100%; 
     text-align: center;
-    margin-right: 30%;
-    margin-left: 30%;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.icons {
-    height: 100px;
-}
+   }
 
 i {
-    color: rgb(239, 162, 163);
+  color: rgb(85, 32, 93);
 }
 
-footer .icons a {
-    color: black;
-    width: 100%;
-    /* padding-top: 100px; */
+
+
+.footer-section {
+  padding-top: 60px; /* Adjust the top padding to move the content down */
 }
+
+
 
 
 
@@ -477,8 +530,6 @@ footer .icons a {
     }
   
     
-  
-  
     .logo_header{
       width: 100%;
       justify-content: space-between;
