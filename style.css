@@ -63,7 +63,7 @@ a{
 
 .main_nav{
   display: flex;
-  width: 20%;
+  width: 30%;
   float: right;
   margin-right: 2%;
   justify-content: space-around;
@@ -133,8 +133,8 @@ a{
 
 
 
-
  .section-one-img {
+  display: block;
     width: 50%;
     /* height: 800px; */
     float: right;
@@ -155,7 +155,7 @@ a{
 
 
 
-h1 {
+.section-one-heading {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -164,35 +164,19 @@ h1 {
   
 }
 
-h2 {
+/* .section-one-heading { */
     /* font-family: 'Roboto', sans-serif; */
-    text-align: center;
+    /* text-align: center;
     color: black;
     margin-top: 50px;
     font-size: 1.2rem;
-}
-
-
-
-/* h3 {
-    display: block;
-    color: black;
-    font-family: 'Italiana', serif;
-    text-align: center;
-    margin-top: 90px;
-    font-size: 3rem;
-
 } */
 
-/* h4 {
-    display: block;
-    color: black;
-    font-family: 'Italiana', serif;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    font-size: 1.3rem; 
-} */
+
+
+
+
+
 
 
 /***************************************************
@@ -207,6 +191,7 @@ h2 {
  /* padding-top: 10px; */
   margin: 0 auto;
   /* color: black; */
+  margin-bottom: 200px;
  }
 
 
@@ -254,40 +239,48 @@ START OF NEW BLOG POST HOME PAGE
 
 
 
-.wrapper {
-    margin-top: 10%;
+ .wrapper {
+    /* margin-top: 10%; */
 
   }
 
-   .wrapper h1 {
-     margin-bottom: 60px;
-     text-align: center;
-   }
+  .start-here-heading {
+    font-size: 2.8rem;
+    
+  }
+
+   /* .start-title-wrapper {
+    font-size: 2.8rem;
+    width: 90%;
+    margin-top: 100px;
+    margin: 0 auto;
+   } */
 
    .posts {
      display: flex;
      text-align: center;
-     /* width: auto; */
+    
      justify-content: center;
      flex-wrap: wrap;
-     margin-top: 250px;
+     /* margin-top: 250px; */
    }
 
     .post {
       margin: 5px;
       margin-bottom: 80px;
-      width: 340px;
+      width: 350px;
+    
       padding: 20px;
       line-height: 20px;
       color: black;
       position: relative;
      }
       
-    .post h3 {
+    /* .post h3 {
       font-size: 20px;
       margin-top: 50px;
       color: rgb(85, 32, 93);
-    }
+    } */
 
      .role {
        font-size: 15px;
@@ -299,15 +292,19 @@ START OF NEW BLOG POST HOME PAGE
      .post_img {
        height: 350Px;
        width: 350px;
-       /* align-items: center; */
+       
        margin: 0 auto;
        }
 
      .post_img img {
        width: 350px;
        height: 350px;
-       /* padding: 23px; */
+      
        margin: 0 auto;
+       }
+
+       .blog-title {
+        color: rgb(85, 32, 93);
        }
 
      .blog-description {
@@ -330,7 +327,11 @@ START OF NEW BLOG POST HOME PAGE
         margin-right: 20%;
         margin-left: 20%;
         
-      }
+      } 
+
+      /* Reset any default margins and paddings */
+
+
 
  /**************************************************************** 
              END OF NEW BLOG POST HOME PAGE
@@ -355,8 +356,10 @@ START OF NEW BLOG POST HOME PAGE
 }
 
 .section-three-heading {
+  margin-left: 20%;
     font-size: 3rem;
     color: rgb(85, 32, 93);
+   
     /* margin-top: 200px; */
 }
 
@@ -372,7 +375,7 @@ START OF NEW BLOG POST HOME PAGE
 
  .section-three-para {
   margin-right: 7%;
-  margin-left: 7%;
+  /* margin-left: 7%; */
   line-height: 25px;
   margin-left: 20%;
  }
@@ -403,6 +406,11 @@ font-size: 2rem;
 .standup-post-date {
   /* display: block; */
   font-size: 1.5rem;
+}
+
+.update {
+  font-size: 13px;
+  margin-right: 5px;
 }
 
 .standup-hr {
@@ -442,8 +450,20 @@ padding-bottom: 20px;
 
 .blog-post-heading {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 150px;
+  font-size: 55px;
 }
+
+.blog-posts {
+  display: flex;
+     text-align: center;
+    margin-top: 170px;
+     justify-content: center;
+     flex-wrap: wrap;
+     /* margin-top: 250px; */
+   }
+
+
 
 .blog-post-img {
   display: block;
@@ -457,7 +477,164 @@ padding-bottom: 20px;
 }
 
 
-/**************************************************
+/************************************************** 
+            PROJECTS PAGE
+***************************************************/
+
+.projects-wrapper {
+  /* margin-top: 10%; */
+
+}
+
+.projects-heading {
+  text-align: center;
+ margin-top: 150px;
+font-size: 55px;
+
+}
+ /* .projects-wrapper h1 {
+   margin-bottom: 60px;
+   text-align: center;
+ } */
+
+ .projects-posts {
+   display: flex;
+   text-align: center;
+   /* width: auto; */
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 170px;
+ }
+
+  .projects-post {
+    margin: 5px;
+    margin-bottom: 80px;
+    width: 600px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+   }
+    
+  .projects-post h3 {
+    font-size: 20px;
+    margin-top: 50px;
+    color: rgb(85, 32, 93);
+  }
+
+   .projects-role {
+     font-size: 15px;
+     text-transform: uppercase;
+     margin: 12px 0;
+     color: rgb(85, 32, 93);
+   }
+
+   .projects-post_img {
+     /* height: 350Px;
+     width: 350px; */
+     /* align-items: center; */
+     /* margin: 0 auto; */
+
+     }
+
+   .projects-post_img img {
+     /* width: 350px;
+     height: 350px; */
+     /* padding: 23px; */
+     /* margin: 0 auto; */
+     object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+     }
+
+   .projects-blog-description {
+    color: rgb(85, 32, 93);
+   }
+
+   /* .more-button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(85, 32, 93);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+   } */
+
+
+   .projects-intro {
+      margin-right: 20%;
+      margin-left: 20%;
+      
+    }
+
+/*************************************************
+   RESOURCES SECTION, COPIED FROM STANDUP TEMPLATE.
+ **************************************************/
+
+ 
+
+  .resources-border {
+    width: 60%;
+    margin: 50px auto 10px;
+  }
+  
+  .resources-heading {
+   
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .resources-post-title {
+   
+    margin: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
+  }
+  
+  .resources-post-date {
+    /* display: block; */
+    font-size: 1.5rem;
+  }
+  
+  .resources-update {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+  
+  .resources-hr {
+    border: 0;
+      height: 5px;
+      background-image: linear-gradient(to right, rgba(85, 32, 93, 1), rgb(157, 51, 173) ,rgb(202, 43, 226));
+  }
+  
+  .resources-about-the-post {
+    margin: 90px 20px 40px;
+  }
+  
+  .resources-list-title {
+    margin-left: 20px;
+   
+    font-size: 1.2rem;
+  }
+  
+  .resources-general-list {
+  /* padding-top: 10px; */
+  padding-bottom: 20px;
+  }
+  
+  .text-one, .text-two, .text-three, .text-four, .text-five, .text-six, .text-seven, .text-eight, .text-nine, .text-ten {
+    margin: 30px 10px;
+  
+  }
+
+  /*************************************************
+                  RESOURCES END
+ **************************************************/
+
+
+/*************************************************
               FOOTER SECTION 
  **************************************************/
 
@@ -478,7 +655,10 @@ i {
   padding-top: 60px; /* Adjust the top padding to move the content down */
 }
 
-
+.icons8-link {
+  color: rgb(85, 32, 93);
+  padding-bottom: 0;
+}
 
 
 
