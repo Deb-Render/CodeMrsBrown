@@ -682,7 +682,6 @@ i {
   
     .main_nav{
       display: none;
-      margin: 0;
       padding: 0;
     }
   
@@ -723,6 +722,14 @@ i {
       width: 100%;
       justify-content: space-between;
       margin-right: 2%;
+    }
+
+    .section-one {
+      margin-top: 50px;
+    }
+
+    .section-one-heading {
+      font-size: 3.8rem;
     }
 
 }
