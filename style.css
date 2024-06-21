@@ -413,7 +413,7 @@ margin-left: 20%;
 
 @media (max-width: 768px) {
   .section-three-heading {
-    font-size: 1.5rem;
+    font-size: 2.8rem;
     margin: 20px 20px;
   }
 
@@ -445,6 +445,7 @@ margin-left: 20%;
 .standup-heading {
  
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -489,6 +490,14 @@ padding-bottom: 20px;
 .text-one, .text-two, .text-three, .text-four, .text-five, .text-six, .text-seven, .text-eight, .text-nine, .text-ten {
   margin: 30px 10px;
 
+}
+
+@media (max-width: 768px) {
+    
+  .standup-post-date {
+    /* display: block; */
+    font-size: 1rem;
+  }
 }
 
 /************************************************* 
@@ -624,6 +633,7 @@ font-size: 55px;
   .resources-heading {
    
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   
@@ -668,6 +678,15 @@ font-size: 55px;
   .text-one, .text-two, .text-three, .text-four, .text-five, .text-six, .text-seven, .text-eight, .text-nine, .text-ten {
     margin: 30px 10px;
   
+  }
+
+  @media (max-width: 768px) {
+    
+    .resources-post-date {
+      /* display: block; */
+      font-size: 1rem;
+    }
+    
   }
 
   /*************************************************
