@@ -510,15 +510,20 @@ padding-bottom: 20px;
 .blog-post-border {
   width: 50%;
   margin: 50px auto 10px;
+ 
 }
 
+
+
 .blog-post-heading {
+ 
   text-align: center;
-  margin-top: 150px;
+  margin-top: 140px;
   font-size: 55px;
 }
 
 .blog-posts {
+ 
   display: flex;
      text-align: center;
     margin-top: 170px;
@@ -538,6 +543,17 @@ padding-bottom: 20px;
 
 .blog-post-text-area {
   margin: 5px auto;
+}
+
+@media only screen and (max-width : 992px){
+
+  .blog-post-heading {
+    margin-top: 70px !important;
+  }
+
+  .blog-posts {
+    margin-top: 100px;
+  }
 }
 
 
@@ -795,6 +811,7 @@ i {
       font-size: 25px;
     }
 
+   
 }
 
 @media (max-width: 768px) {
