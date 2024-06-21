@@ -548,7 +548,7 @@ padding-bottom: 20px;
 @media only screen and (max-width : 992px){
 
   .blog-post-heading {
-    margin-top: 70px !important;
+    margin-top: 70px;
   }
 
   .blog-posts {
@@ -637,6 +637,18 @@ font-size: 55px;
       margin-left: 20%;
       
     }
+
+    @media only screen and (max-width : 992px){
+
+      .projects-heading {
+        margin-top: 70px;
+      }
+    
+      .projects-posts {
+        margin-top: 100px;
+      }
+    }
+    
 
 /*************************************************
    RESOURCES SECTION, COPIED FROM STANDUP TEMPLATE.
