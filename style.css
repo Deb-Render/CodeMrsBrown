@@ -476,8 +476,12 @@ font-size: 2rem;
     background-image: linear-gradient(to right, rgba(85, 32, 93, 1), rgb(157, 51, 173) ,rgb(202, 43, 226));
 }
 
+/* blog post section? */
+
 .about-the-post {
-  margin: 90px 20px 40px;
+  /* margin: 90px 20px 40px; */
+  margin: 30px 10px;
+  font-size: 1.5rem;
 }
 
 .list-title {
@@ -493,7 +497,9 @@ padding-bottom: 20px;
 
 .text-one, .text-two, .text-three, .text-four, .text-five, .text-six, .text-seven, .text-eight, .text-nine, .text-ten {
   margin: 30px 10px;
-
+font-size: 120%;
+font-weight: 200;
+line-height: 1.5;
 }
 
 @media (max-width: 768px) {
@@ -544,6 +550,8 @@ padding-bottom: 20px;
 
 .blog-post-text-area {
   margin: 5px auto;
+  
+  text-align: justify;
 }
 
 @media only screen and (max-width : 992px){
