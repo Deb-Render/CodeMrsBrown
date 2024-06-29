@@ -513,6 +513,13 @@ line-height: 1.5;
     /* display: block; */
     font-size: 1rem;
   }
+
+  .about-the-post {
+    /* margin: 90px 20px 40px; */
+    margin: 30px 5%;
+    font-size: 1.5rem;
+  }
+
 }
 
 /************************************************* 
@@ -548,8 +555,8 @@ line-height: 1.5;
 
 .blog-post-img {
   display: block;
-  height: 500px;
-  width: 700px;
+  /* height: 50%; */
+  width: 100%;
   margin: 100px auto;
 }
 
@@ -568,6 +575,13 @@ line-height: 1.5;
   .blog-posts {
     margin-top: 100px;
   }
+
+  .blog-post-border {
+    width: 90%;
+   }
+  
+   
+
 }
 
 
