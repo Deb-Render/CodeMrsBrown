@@ -481,7 +481,12 @@ font-size: 2rem;
 .about-the-post {
   /* margin: 90px 20px 40px; */
   margin: 30px 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+.blog-links {
+  text-decoration: underline;
+  color: black;
 }
 
 .list-title {
