@@ -163,6 +163,19 @@ a{
     margin-right: 10%; /* Adjust for better spacing */
     font-size: 1.2rem;
   }
+
+  .home-welcome-button {
+   
+      display: block;
+      margin: 0 auto;
+      background-color: rgb(85, 32, 93);
+      color: white;
+      height: 50px;
+      width: 150px;
+      border: none;
+      border-radius: 7px;
+     }
+  
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
