@@ -167,7 +167,7 @@ a{
   .home-welcome-button {
    
       display: block;
-      margin: 0 auto;
+      /* margin: 0 auto; */
       background-color: rgb(85, 32, 93);
       color: white;
       height: 50px;
