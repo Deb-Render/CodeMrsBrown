@@ -766,6 +766,40 @@ font-size: 55px;
  **************************************************/
 
 
+/*************************************************** 
+              HOMEWORK IMAGES PAGE
+***************************************************/
+
+.homework-image-page-heading {
+  text-align: center;
+  font-size: 55px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.homework-image-page-subhead {
+  text-align: center;
+  font-size: 35px;
+  /* margin-top: 80px;
+  margin-bottom: 150px; */
+}
+
+.homework-image-page-image-one {
+  display: block;
+ margin: 0 auto;
+  width: 40%;
+}
+
+
+/*************************************************** 
+              HOMEWORK IMAGES PAGE END
+***************************************************/
+
+
+
+
+
+
 /*************************************************
               FOOTER SECTION 
  **************************************************/
