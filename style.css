@@ -496,12 +496,19 @@ font-size: 2rem;
     background-image: linear-gradient(to right, rgba(85, 32, 93, 1), rgb(157, 51, 173) ,rgb(202, 43, 226));
 }
 
+.general-list {
+  /* padding-top: 10px; */
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  }
+
 /* blog post section? */
 
 .about-the-post {
   /* margin: 90px 20px 40px; */
-  margin: 30px 10px;
-  font-size: 2rem;
+  margin: 80px 10px 40px 10px;
+  font-size: 2.2rem;
 }
 
 .blog-links {
@@ -511,20 +518,41 @@ font-size: 2rem;
 
 .list-title {
   margin-left: 20px;
- 
-  font-size: 1.2rem;
+ margin-top: 60px;
+  font-size: 1.6rem;
 }
 
-.general-list {
-/* padding-top: 10px; */
-padding-bottom: 20px;
+.span-nums {
+  font-size: 2rem;
 }
+
 
 .text-one, .text-two, .text-three, .text-four, .text-five, .text-six, .text-seven, .text-eight, .text-nine, .text-ten {
   margin: 30px 10px;
 font-size: 120%;
 font-weight: 200;
 line-height: 1.5;
+}
+
+.standup-nav-links {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.standup-nav-link-first {
+  width: 100%;
+}
+
+.nav-link-first {
+  float: right;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: rgb(85, 32, 93);
 }
 
 @media (max-width: 768px) {
@@ -603,6 +631,8 @@ line-height: 1.5;
    
 
 }
+
+
 
 
 /************************************************** 
